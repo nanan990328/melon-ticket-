@@ -15,4 +15,5 @@ jobs:
           product-id: 213025
           schedule-id: 100001
           seat-id: 1_0
-          message: '🎫 6月13日有票了！'
+          message: '🎫 有票了！'
+          disable-slack: true   # 👈 关键！！加这一行
