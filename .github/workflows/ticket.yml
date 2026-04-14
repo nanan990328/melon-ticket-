@@ -1,0 +1,18 @@
+name: melon-ticket
+
+on:
+  schedule:
+    - cron: '*/5 * * * *'
+  workflow_dispatch:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check Tickets
+        uses: mooyoul/melon-ticket-actions@v1.1.0
+        with:
+          product-id: 204755   # 这里先随便填，后面改
+          schedule-id: 100001  # 后面我们再抓
+          seat-id: 1_0
+          message: 'test'
