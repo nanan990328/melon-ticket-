@@ -12,7 +12,7 @@ jobs:
       - name: Check Tickets
         uses: mooyoul/melon-ticket-actions@v1.1.0
         with:
-          product-id: 204755   # 这里先随便填，后面改
-          schedule-id: 100001  # 后面我们再抓
+          product-id: 213025
+          schedule-id: 100001
           seat-id: 1_0
-          message: 'test'
+          message: '🎫 6月13日有票了！'
