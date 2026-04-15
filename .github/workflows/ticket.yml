@@ -1,9 +1,9 @@
 name: melon-ticket
 
 on:
-  schedule:
-    - cron: '*/5 * * * *'
-  workflow_dispatch:
+  workflow_dispatch: # 这样改为仅手动点击才运行
+#  schedule:
+#    - cron: '0 * * * *'  # 把之前的定时代码注释掉
 
 jobs:
   check:
